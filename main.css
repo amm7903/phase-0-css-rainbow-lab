@@ -1,3 +1,4 @@
+
 div {
   border: 20px solid #000; /* this is short hand for setting
                             the border's width, its type, and color */
@@ -8,4 +9,27 @@ div {
   border-left-color: transparent; /* these remove the color from the left side */
   border-right-color: transparent; /* the right side */
   border-bottom-color: transparent; /* and the bottom of the circle */
+}
+#red {
+  /* this selects any elements with the red id */
+  border-top-color: #f00;
+}
+#orange {
+  /* this selects any elements with the orange id */
+  border-top-color: rgb(182, 102, 27);
+}
+#yellow {
+  border-top-color: rgb(208, 211, 28);
+}
+#green {
+  border-top-color:rgb(22, 223, 66);
+}
+#blue {
+  border-top-color: rgb(78, 167, 219);
+}
+#dark-blue {
+  border-top-color: rgb(4, 9, 61);
+}
+#purple {
+  border-top: rgb(147, 22, 197);
 }
